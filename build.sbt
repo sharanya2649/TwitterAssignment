@@ -11,6 +11,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.slick" %% "slick" % "3.3.0",
   "org.scalatest" %% "scalatest" % "2.2.5" % "test",
   "com.h2database" % "h2" % "1.4.187" % "test",
-  "org.twitter4j" % "twitter4j-stream" % "3.0.3",
+  "org.twitter4j" % "twitter4j-stream" % "3.0.4",
   "org.scalatest" %% "scalatest" % "3.0.5" % Test
 )

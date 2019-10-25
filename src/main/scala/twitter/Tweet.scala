@@ -15,8 +15,8 @@ object Tweet {
   def main(args: Array[String]) {
     val twitterStream = new TwitterStreamFactory(Util.config).getInstance
     twitterStream.addListener(Util.simpleStatusListener)
-    twitterStream.sample
-    Thread.sleep(2000)
+    twitterStream.filter(new FilterQuery().track(Array("modi","smriti")).language(Array("en")))
+    Thread.sleep(4000)
     twitterStream.cleanUp
     twitterStream.shutdown
   }
@@ -44,6 +44,7 @@ object Util {
     .setOAuthAccessToken("..")
     .setOAuthAccessTokenSecret("..")
     .build
+
 
   def simpleStatusListener = new StatusListener() {
     def onStatus(status: Status) {
