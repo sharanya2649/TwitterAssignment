@@ -14,11 +14,19 @@ import scala.concurrent.{Await, Future}
 object Tweet {
   def main(args: Array[String]) {
     val twitterStream = new TwitterStreamFactory(Util.config).getInstance
+//    val p: Int =twitterStream.getConfiguration.getHttpProxyPort
     twitterStream.addListener(Util.simpleStatusListener)
     twitterStream.filter(new FilterQuery().track(Array("modi","smriti")).language(Array("en")))
     Thread.sleep(4000)
     twitterStream.cleanUp
     twitterStream.shutdown
+  }
+}
+class Twitter{
+  def testFun:Int={
+    val twitterStream2 = new TwitterStreamFactory(Util.config).getInstance
+    val p: Int =twitterStream2.getConfiguration.getHttpProxyPort
+    p
   }
 }
 class TwitterDetails{
@@ -29,9 +37,10 @@ class TwitterDetails{
   }
   val twitter= TableQuery(TwitterTable)
 
-  val twitterSchema: Unit =Await.result(DatabaseConnection.db.run(DBIO.seq(
-    twitter.schema.create
-  )), Duration.Inf)
+//  val twitterSchema: Unit =Await.result(DatabaseConnection.db.run(DBIO.seq(
+//    twitter.schema.create
+//  )), Duration.Inf)
+
 
   def insert(username:String,userTweet:String) = {
     twitter.map(t=>(t.name,t.tweet)) += (username,userTweet)
@@ -45,9 +54,8 @@ object Util {
     .setOAuthAccessTokenSecret("..")
     .build
 
-
   def simpleStatusListener = new StatusListener() {
-    def onStatus(status: Status) {
+    def onStatus(status: Status) ={
       //      println(DataObjectFactory.getRawJSON(status))
       println(status.getText +"-----"+ status.getUser+"==="+status.getId)
 
