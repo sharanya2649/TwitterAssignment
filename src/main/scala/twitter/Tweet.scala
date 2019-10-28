@@ -4,11 +4,8 @@ package twitter
 import slick.jdbc.MySQLProfile.api._
 import twitter4j._
 
-import scala.concurrent.Await
-import scala.concurrent.duration.Duration
-
 trait TwitterInstance {
-  val twitterStream = new TwitterStreamFactory(Util.config).getInstance
+  val twitterStream: TwitterStream = new TwitterStreamFactory(Util.config).getInstance
 }
 
 object Tweet extends App with TwitterInstance {
@@ -48,7 +45,7 @@ class TwitterDetails {
 
 }
 
-object Util {
+object Util extends TwitterInstance {
   val config = new twitter4j.conf.ConfigurationBuilder()
     .setOAuthConsumerKey("..")
     .setOAuthConsumerSecret("..")
@@ -59,11 +56,10 @@ object Util {
 
   def simpleStatusListener = new StatusListener() {
     def onStatus(status: Status) = {
-      //      println(DataObjectFactory.getRawJSON(status))
       println(status.getText + "-----" + status.getUser + "===" + status.getId)
       //
-      val ob = new TwitterDetails
-      Await.result(ob.insert(status.getUser.getScreenName, status.getText), Duration.Inf)
+      //      val ob=new TwitterDetails
+      //      Await.result(ob.insert(status.getUser.getScreenName,status.getText), Duration.Inf)
     }
 
     def onDeletionNotice(statusDeletionNotice: StatusDeletionNotice) {}
