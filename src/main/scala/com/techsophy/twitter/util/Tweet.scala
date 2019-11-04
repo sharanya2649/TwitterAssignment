@@ -10,10 +10,10 @@ trait Tweet extends StatusListener {
   val twitterQuery: TwitterQuery
 
   val config = new twitter4j.conf.ConfigurationBuilder()
-    .setOAuthConsumerKey("cDPSKmyJDYofdSjktgtfMqGl9" )
-    .setOAuthConsumerSecret("Epf1waJw3536qy4dQzb6M3QQFirNrpXEo6OpHEijiSFoyNMlIr")
-    .setOAuthAccessToken("3221559674-1VVA4Hp7RvLgn0v5L7OP5Ff9FFruY9fB2PXDMXI")
-    .setOAuthAccessTokenSecret("cZikVe3LjR60bV9nyTmRXOhhHk6oHPRkWXBTVCjvMYyWv")
+    .setOAuthConsumerKey("" )
+    .setOAuthConsumerSecret("")
+    .setOAuthAccessToken("")
+    .setOAuthAccessTokenSecret("")
     .build
 
     def onStatus(status: Status): Unit = {

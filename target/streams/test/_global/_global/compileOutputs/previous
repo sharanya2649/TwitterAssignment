@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.Seq[java.nio.file.Path]]",["/home/sharanya/TwitterPractice/target/scala-2.12/test-classes/com/techsophy/twitter/TweetTest.class","/home/sharanya/TwitterPractice/target/scala-2.12/test-classes/com/techsophy/twitter/db/TestDBConnector.class","/home/sharanya/TwitterPractice/target/streams/test/compileOutputs/_global/streams/inc_compile_2.12.zip"]]

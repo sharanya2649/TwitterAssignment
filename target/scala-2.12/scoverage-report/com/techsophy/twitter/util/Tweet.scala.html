@@ -1,0 +1,348 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/techsophy/twitter/util/Tweet.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.techsophy.twitter.util
+</span>2 <span style=''>
+</span>3 <span style=''>import com.techsophy.twitter.db.{TwitterDetails, TwitterQuery, TwitterQueryObj}
+</span>4 <span style=''>import twitter4j._
+</span>5 <span style=''>
+</span>6 <span style=''>import scala.collection.mutable.ListBuffer
+</span>7 <span style=''>
+</span>8 <span style=''>trait Tweet extends StatusListener {
+</span>9 <span style=''>
+</span>10 <span style=''>  val twitterQuery: TwitterQuery
+</span>11 <span style=''>
+</span>12 <span style=''>  val config = </span><span style='background: #AEF1AE'>new twitter4j.conf.ConfigurationBuilder()
+</span>13 <span style=''></span><span style='background: #AEF1AE'>    .setOAuthConsumerKey(&quot;cDPSKmyJDYofdSjktgtfMqGl9&quot; )
+</span>14 <span style=''></span><span style='background: #AEF1AE'>    .setOAuthConsumerSecret(&quot;Epf1waJw3536qy4dQzb6M3QQFirNrpXEo6OpHEijiSFoyNMlIr&quot;)
+</span>15 <span style=''></span><span style='background: #AEF1AE'>    .setOAuthAccessToken(&quot;3221559674-1VVA4Hp7RvLgn0v5L7OP5Ff9FFruY9fB2PXDMXI&quot;)
+</span>16 <span style=''></span><span style='background: #AEF1AE'>    .setOAuthAccessTokenSecret(&quot;cZikVe3LjR60bV9nyTmRXOhhHk6oHPRkWXBTVCjvMYyWv&quot;)
+</span>17 <span style=''></span><span style='background: #AEF1AE'>    .build</span><span style=''>
+</span>18 <span style=''>
+</span>19 <span style=''>    def onStatus(status: Status): Unit = {
+</span>20 <span style=''>      </span><span style='background: #F0ADAD'>println(status.getText)</span><span style=''>
+</span>21 <span style=''>      </span><span style='background: #F0ADAD'>twitterQuery.insert(status.getUser.getName, status.getText)</span><span style=''>
+</span>22 <span style=''>    }
+</span>23 <span style=''>
+</span>24 <span style=''>    def onDeletionNotice(statusDeletionNotice: StatusDeletionNotice) </span><span style='background: #F0ADAD'>{}</span><span style=''>
+</span>25 <span style=''>    def onTrackLimitationNotice(numberOfLimitedStatuses: Int) </span><span style='background: #F0ADAD'>{}</span><span style=''>
+</span>26 <span style=''>    def onException(ex: Exception) { </span><span style='background: #F0ADAD'>ex.printStackTrace</span><span style=''> }
+</span>27 <span style=''>    def onScrubGeo(arg0: Long, arg1: Long) </span><span style='background: #F0ADAD'>{}</span><span style=''>
+</span>28 <span style=''>    def onStallWarning(warning: StallWarning) </span><span style='background: #F0ADAD'>{}</span><span style=''>
+</span>29 <span style=''>
+</span>30 <span style=''>}
+</span>31 <span style=''>
+</span>32 <span style=''>object Tweet extends Tweet {
+</span>33 <span style=''>  override val twitterQuery: TwitterQuery = </span><span style='background: #AEF1AE'>TwitterQueryObj</span><span style=''>
+</span>34 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          53
+        </td>
+        <td>
+          267
+          -
+          615
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          674
+          -
+          688
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          30
+        </td>
+        <td>
+          666
+          -
+          689
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          716
+          -
+          738
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          40
+        </td>
+        <td>
+          715
+          -
+          715
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          52
+        </td>
+        <td>
+          740
+          -
+          754
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          69
+        </td>
+        <td>
+          696
+          -
+          755
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          832
+          -
+          834
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          897
+          -
+          899
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          66
+        </td>
+        <td>
+          937
+          -
+          955
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          27
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          1001
+          -
+          1003
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          28
+        </td>
+        <td>
+          56
+        </td>
+        <td>
+          1050
+          -
+          1052
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          
+        </td>
+      </tr><tr>
+        <td>
+          33
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          1130
+          -
+          1145
+        </td>
+        <td>
+          
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

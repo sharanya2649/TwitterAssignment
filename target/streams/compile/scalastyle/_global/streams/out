@@ -1,0 +1,33 @@
+[0m[[0m[0minfo[0m] [0m[0mscalastyle using config /home/sharanya/TwitterPractice/scalastyle-config.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mStarting scalastyle[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala:12:15: Magic Number[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala:20:6: Regular expression matched 'println'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala:1: Header does not match expected text[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/DatabaseConnection.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/DatabaseConnection.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/DatabaseConnection.scala: File must end with newline character[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/DatabaseConnection.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala:33:8: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala:11:6: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala:16:6: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala:33:8: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala:35:8: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala:37:8: Public method must have explicit type[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 5 file(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 errors[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 14 warnings[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 9 ms[0m
+[0m[[0m[32msuccess[0m] [0m[0mcreated output: /home/sharanya/TwitterPractice/target[0m
+[0m[[0m[33mwarn[0m] [0m[0mwarnings exist[0m

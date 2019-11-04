@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sharanya/TwitterPractice/src/test/resources/schema.sql,/home/sharanya/TwitterPractice/target/scala-2.12/test-classes/schema.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sharanya/TwitterPractice/src/test/resources/test-data.sql,/home/sharanya/TwitterPractice/target/scala-2.12/test-classes/test-data.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/sharanya/TwitterPractice/src/test/resources/test-dbconfiguration.conf,/home/sharanya/TwitterPractice/target/scala-2.12/test-classes/test-dbconfiguration.conf)[0m

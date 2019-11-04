@@ -1,0 +1,351 @@
+<scoverage 
+statement-count="75" statements-invoked="39" statement-rate="52.00" branch-rate="100.00" version="1.0" timestamp="1572849983153">
+    <packages>
+        <package name="com.techsophy.twitter.app" statement-count="13" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="com.techsophy.twitter.app.Launch" filename="com/techsophy/twitter/app/Launch.scala" statement-count="13" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="com.techsophy.twitter.app/Launch/&lt;none&gt;" statement-count="13" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="314" end="337" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="411" end="435" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="234" end="266" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="290" end="360" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="260" end="265" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="364" end="382" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="328" end="336" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="269" end="361" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="180" end="230" line="8" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="348" end="359" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="354" end="358" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="385" end="408" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.app" class="Launch" class-type="Object" full-class-name="com.techsophy.twitter.app.Launch" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/app/Launch.scala" method="&lt;none&gt;" start="320" end="326" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="com.techsophy.twitter.db" statement-count="42" statements-invoked="30" statement-rate="71.43">
+            <classes>
+                <class 
+                name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" filename="com/techsophy/twitter/db/TwitterDetails.scala" statement-count="19" statements-invoked="18" statement-rate="94.74" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.techsophy.twitter.db/TwitterTable/*" statement-count="13" statements-invoked="12" statement-rate="92.31" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="753" end="770" line="33" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="717" end="717" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="717" end="771" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="731" end="731" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="717" end="717" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="717" end="717" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="717" end="717" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="717" end="730" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="717" end="717" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="735" end="751" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="718" end="722" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="724" end="729" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="*" start="717" end="771" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.db/TwitterTable/name" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="name" start="788" end="810" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="name" start="802" end="802" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="name" start="803" end="809" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.db/TwitterTable/tweet" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="tweet" start="842" end="842" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="tweet" start="843" end="850" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterTable" class-type="Class" full-class-name="com.techsophy.twitter.db.TwitterDetails.TwitterTable" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="tweet" start="828" end="851" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="com.techsophy.twitter.db.TwitterQuery" filename="com/techsophy/twitter/db/TwitterDetails.scala" statement-count="23" statements-invoked="12" statement-rate="52.17" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.techsophy.twitter.db/TwitterQuery/getAllTweets" statement-count="8" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="getAllTweets" start="466" end="466" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="getAllTweets" start="485" end="485" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="getAllTweets" start="454" end="498" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="getAllTweets" start="473" end="480" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="getAllTweets" start="454" end="491" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="getAllTweets" start="466" end="466" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="getAllTweets" start="447" end="499" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="getAllTweets" start="485" end="485" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.db/TwitterQuery/read" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="read" start="367" end="394" line="17" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="read" start="374" end="393" line="17" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="read" start="374" end="381" line="17" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.db/TwitterQuery/insert" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="294" end="294" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="294" end="294" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="294" end="294" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="283" end="343" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="301" end="307" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="294" end="294" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="276" end="344" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="283" end="318" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="309" end="316" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="294" end="294" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="283" end="343" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db" class="TwitterQuery" class-type="Trait" full-class-name="com.techsophy.twitter.db.TwitterQuery" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/TwitterDetails.scala" method="insert" start="300" end="317" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="com.techsophy.twitter.db.connection" statement-count="7" statements-invoked="7" statement-rate="100.00">
+            <classes>
+                <class 
+                name="com.techsophy.twitter.db.connection.MySQLDBConnector" filename="com/techsophy/twitter/db/connection/MySQLDBConnector.scala" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.techsophy.twitter.db.connection/MySQLDBConnector/&lt;none&gt;" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.db.connection" class="MySQLDBConnector" class-type="Trait" full-class-name="com.techsophy.twitter.db.connection.MySQLDBConnector" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala" method="&lt;none&gt;" start="186" end="198" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.db.connection/MySQLDBConnector/db" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.db.connection" class="MySQLDBConnector" class-type="Trait" full-class-name="com.techsophy.twitter.db.connection.MySQLDBConnector" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala" method="db" start="268" end="361" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db.connection" class="MySQLDBConnector" class-type="Trait" full-class-name="com.techsophy.twitter.db.connection.MySQLDBConnector" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala" method="db" start="287" end="291" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db.connection" class="MySQLDBConnector" class-type="Trait" full-class-name="com.techsophy.twitter.db.connection.MySQLDBConnector" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala" method="db" start="292" end="360" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db.connection" class="MySQLDBConnector" class-type="Trait" full-class-name="com.techsophy.twitter.db.connection.MySQLDBConnector" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala" method="db" start="277" end="277" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db.connection" class="MySQLDBConnector" class-type="Trait" full-class-name="com.techsophy.twitter.db.connection.MySQLDBConnector" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala" method="db" start="326" end="359" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.db.connection" class="MySQLDBConnector" class-type="Trait" full-class-name="com.techsophy.twitter.db.connection.MySQLDBConnector" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/db/connection/MySQLDBConnector.scala" method="db" start="277" end="277" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="com.techsophy.twitter.util" statement-count="13" statements-invoked="2" statement-rate="15.38">
+            <classes>
+                <class 
+                name="com.techsophy.twitter.util.Tweet" filename="com/techsophy/twitter/util/Tweet.scala" statement-count="13" statements-invoked="2" statement-rate="15.38" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.techsophy.twitter.util/Tweet/&lt;none&gt;" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="&lt;none&gt;" start="267" end="615" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Object" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="&lt;none&gt;" start="1130" end="1145" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.util/Tweet/onDeletionNotice" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onDeletionNotice" start="832" end="834" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.util/Tweet/onStatus" statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onStatus" start="674" end="688" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onStatus" start="716" end="738" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onStatus" start="715" end="715" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onStatus" start="740" end="754" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onStatus" start="696" end="755" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onStatus" start="666" end="689" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.util/Tweet/onStallWarning" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onStallWarning" start="1050" end="1052" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.util/Tweet/onTrackLimitationNotice" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onTrackLimitationNotice" start="897" end="899" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.util/Tweet/onScrubGeo" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onScrubGeo" start="1001" end="1003" line="27" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.techsophy.twitter.util/Tweet/onException" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.techsophy.twitter.util" class="Tweet" class-type="Trait" full-class-name="com.techsophy.twitter.util.Tweet" source="/home/sharanya/TwitterPractice/src/main/scala/com/techsophy/twitter/util/Tweet.scala" method="onException" start="937" end="955" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

@@ -13,13 +13,6 @@ trait TwitterQuery extends TwitterDetails {
     db.run(twitter.map(t => (t.name, t.tweet)) += (username, userTweet))
   }
 
-  def read =
-    db.run(twitter.result.head)
-
-  def getAllTweets(): Future[List[String]] = {
-    db.run(twitter.map { x => x.tweet }.to[List].result)
-  }
-
 }
 
 trait TwitterDetails extends DatabaseConnection {
